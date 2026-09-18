@@ -8,7 +8,7 @@ public class Opgave5 {
 
         if (smaller == a) { // FIX: Fjernet {} efter if og bruger den lokale variabel smaller
 
-            System.out.println("7 is the smallest!"); // FIX: Ændret teksten til det ønskede output
+            System.out.println("Number " + smaller + " is the smallest!"); // FIX: Ændret teksten til det ønskede output
 
         }
 
