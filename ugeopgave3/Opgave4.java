@@ -1,6 +1,18 @@
 public class Opgave4 {
 
     // OPG 4: Statistisk beregner
+
+    void main(String[] args) {
+        int[] numbers = {45, 67, 23, 89, 34, 56, 78};
+
+        System.out.println("Gennemsnit: " + calculateAverage(numbers));
+        System.out.println("Max: " + findMax(numbers));
+        System.out.println("Min: " + findMin(numbers));
+        System.out.println("Over gennemsnit: " + countAboveAverage(numbers));
+
+        System.out.println();
+    }
+
     double calculateAverage(int[] numbers) {
         int sum = 0;
         for (int num : numbers) {
@@ -46,16 +58,5 @@ public class Opgave4 {
         System.out.println("Største tal: " + findMax(numbers));
         System.out.println("Mindste tal: " + findMin(numbers));
         System.out.println("Antal over gennemsnit: " + countAboveAverage(numbers));
-    }
-
-    void main(String[] args) {
-        int[] numbers = {45, 67, 23, 89, 34, 56, 78};
-
-        System.out.println("Gennemsnit: " + calculateAverage(numbers));
-        System.out.println("Max: " + findMax(numbers));
-        System.out.println("Min: " + findMin(numbers));
-        System.out.println("Over gennemsnit: " + countAboveAverage(numbers));
-
-        System.out.println();
     }
 }
